@@ -1,5 +1,5 @@
 # Yui 的 Discord BOT
-# 版本號 20250314_1
+# 版本號 20250920_1
 
 import discord
 import requests
