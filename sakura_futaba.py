@@ -32,7 +32,7 @@ def numadjuster(num):
 scheduler = AsyncIOScheduler()
 
 # Token
-token = 'MTI0ODg3NzUyMzM1MDMyMzI3Mg.GOO2CZ.Pa2U4rRRzoh8fWBZKbWM6hPPQ-WIaqbKw1iMhk'
+token = os.getenv("DISCORD_BOT_TOKEN")
 OWNER_ID = 475310606744813580
 
 intents = discord.Intents.default()
